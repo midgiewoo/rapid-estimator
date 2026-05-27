@@ -1,0 +1,17 @@
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Editor / IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
