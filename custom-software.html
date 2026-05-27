@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Software Development | SDSI Business Systems</title>
+  <meta name="description" content="SDSI develops tailored Windows desktop applications and specialized tools for construction and related industries. Decades of experience.">
+  <link rel="icon" href="images/logo-sdsi-square.jpg" type="image/jpeg">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-[#F8FAFC]">
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar fixed top-0 left-0 right-0 z-50 border-b border-[#E5E7EB]">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="flex items-center justify-between h-20">
+        <a href="index.html" class="flex items-center gap-3">
+          <img src="images/logo-sdsi-square.jpg" alt="SDSI" class="h-10 w-10 rounded-lg object-cover ring-1 ring-[#E5E7EB]">
+          <div class="flex flex-col -space-y-0.5">
+            <span class="font-semibold text-xl tracking-[-0.025em] text-[#0F2744]">SDSI</span>
+            <span class="text-[10px] font-medium text-[#6B7280] tracking-[1.5px] uppercase">Business Systems</span>
+          </div>
+        </a>
+        <div class="hidden md:flex items-center gap-x-9 text-sm">
+          <a href="about.html" class="nav-link">About</a>
+          <a href="rapid-estimator.html" class="nav-link">Rapid Estimator</a>
+          <a href="features.html" class="nav-link">Features</a>
+          <a href="custom-software.html" class="nav-link active">Custom Development</a>
+          <a href="support.html" class="nav-link">Support</a>
+        </div>
+        <div class="hidden md:flex items-center gap-x-3">
+          <a href="contact.html" class="btn-secondary text-sm px-5 py-2">Contact</a>
+          <a href="contact.html#demo" class="btn-primary text-sm">Request Demo</a>
+        </div>
+        <button id="mobile-menu-toggle" class="md:hidden flex items-center justify-center w-11 h-11 rounded-xl border border-[#E5E7EB]" aria-label="Open menu">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-overlay" class="hidden fixed inset-0 bg-black/60 z-[60] md:hidden"></div>
+  <div id="mobile-menu" class="mobile-menu fixed top-0 right-0 bottom-0 w-[82%] max-w-[320px] bg-white z-[70] md:hidden shadow-2xl flex flex-col">
+    <div class="flex items-center justify-between px-6 h-20 border-b"><div class="flex items-center gap-3"><img src="images/logo-sdsi-square.jpg" alt="SDSI" class="h-9 w-9 rounded-lg"><span class="font-semibold text-xl text-[#0F2744]">SDSI</span></div><button id="mobile-menu-close" class="w-10 h-10 flex items-center justify-center text-[#6B7280]"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12" /></svg></button></div>
+    <div class="px-6 py-8 flex flex-col gap-y-1 text-[15px]">
+      <a href="about.html" class="py-3 px-4 rounded-xl hover:bg-[#F8FAFC]">About Us</a>
+      <a href="rapid-estimator.html" class="py-3 px-4 rounded-xl hover:bg-[#F8FAFC]">Rapid Estimator</a>
+      <a href="features.html" class="py-3 px-4 rounded-xl hover:bg-[#F8FAFC]">Features</a>
+      <a href="custom-software.html" class="py-3 px-4 rounded-xl bg-[#F8FAFC] font-semibold">Custom Software</a>
+      <a href="support.html" class="py-3 px-4 rounded-xl hover:bg-[#F8FAFC]">Support Services</a>
+    </div>
+    <div class="mt-auto border-t px-6 py-6 bg-[#F8FAFC]"><a href="contact.html" class="block w-full text-center btn-secondary mb-3">Contact Sales</a><a href="contact.html#demo" class="block w-full text-center btn-primary">Request a Demo</a></div>
+  </div>
+
+  <!-- HERO -->
+  <div class="pt-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6 pt-16 pb-14">
+      <div class="grid lg:grid-cols-12 gap-x-14 items-center">
+        <div class="lg:col-span-7">
+          <div class="uppercase tracking-[2px] text-xs font-semibold text-[#2563EB]">NOT JUST ESTIMATING SOFTWARE</div>
+          <h1 class="mt-3 text-5xl font-semibold tracking-[-0.03em] text-[#0F2744]">Custom Windows applications built for your exact needs.</h1>
+          <p class="mt-5 text-xl text-[#374151]">For over 40 years, SDSI has designed and developed specialized desktop software for contractors, engineers, and service companies who couldn’t find the right tool on the market.</p>
+          <div class="mt-8">
+            <a href="contact.html" class="btn-primary px-8">Discuss Your Project</a>
+          </div>
+        </div>
+        <div class="lg:col-span-5 mt-10 lg:mt-0">
+          <div class="image-container rounded-3xl overflow-hidden shadow-2xl">
+            <img src="images/hero-custom-dev.jpg" alt="Experienced SDSI developer building a custom Windows desktop application for a construction client with multiple monitors showing blueprints and code" class="w-full">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- APPROACH -->
+  <div class="section max-w-7xl mx-auto px-6">
+    <div class="text-center mb-12">
+      <div class="uppercase tracking-widest text-xs font-semibold text-[#2563EB]">OUR APPROACH</div>
+      <h2 class="mt-2 text-4xl font-semibold tracking-tight text-[#0F2744]">We listen first. Then we build.</h2>
+    </div>
+
+    <div class="grid md:grid-cols-4 gap-6">
+      <div class="card p-7"><div class="font-bold text-[#2563EB] text-sm tracking-wider mb-2">01 — DISCOVER</div><div class="font-semibold">Deep discovery workshops with your team</div><p class="mt-2 text-sm text-[#374151]">We learn your current workflows, pain points, and goals before writing a single line of code.</p></div>
+      <div class="card p-7"><div class="font-bold text-[#2563EB] text-sm tracking-wider mb-2">02 — DESIGN</div><div class="font-semibold">Modern, intuitive interface design</div><p class="mt-2 text-sm text-[#374151]">We prototype in real Windows environments so you see exactly how it will feel to use.</p></div>
+      <div class="card p-7"><div class="font-bold text-[#2563EB] text-sm tracking-wider mb-2">03 — DEVELOP</div><div class="font-semibold">Professional .NET / WPF / WinUI development</div><p class="mt-2 text-sm text-[#374151]">Clean, maintainable code with comprehensive documentation and training for your staff.</p></div>
+      <div class="card p-7"><div class="font-bold text-[#2563EB] text-sm tracking-wider mb-2">04 — SUPPORT</div><div class="font-semibold">Long-term partnership &amp; evolution</div><p class="mt-2 text-sm text-[#374151]">We don’t disappear after launch. Most of our custom projects evolve with the client for many years.</p></div>
+    </div>
+  </div>
+
+  <!-- WHAT WE BUILD -->
+  <div class="bg-white section">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="max-w-2xl">
+        <h3 class="text-3xl font-semibold tracking-tight text-[#0F2744]">Common custom projects we deliver</h3>
+        <p class="text-[#374151] mt-3">We specialize in practical, high-value tools that integrate tightly with Rapid Estimator or stand alone.</p>
+      </div>
+
+      <div class="mt-9 grid md:grid-cols-2 gap-5">
+        <div class="card p-8">
+          <h4 class="font-semibold">Job Cost &amp; Project Tracking</h4>
+          <p class="mt-2 text-[#374151]">Real-time job cost tracking that pulls directly from your estimates and syncs with your accounting system. Daily production reporting for field teams.</p>
+        </div>
+        <div class="card p-8">
+          <h4 class="font-semibold">Specialty Estimating Modules</h4>
+          <p class="mt-2 text-[#374151]">Highly specialized calculators for niches like fire protection, curtain wall, precast, or complex mechanical systems that generic software can’t handle.</p>
+        </div>
+        <div class="card p-8">
+          <h4 class="font-semibold">Field &amp; Mobile Data Collection</h4>
+          <p class="mt-2 text-[#374151]">Windows tablet and desktop tools for daily logs, T&amp;M tracking, material receiving, and punch lists with offline capability and seamless sync.</p>
+        </div>
+        <div class="card p-8">
+          <h4 class="font-semibold">Legacy System Modernization</h4>
+          <p class="mt-2 text-[#374151]">We frequently rebuild or extend 15- to 25-year-old internal applications into modern, supportable Windows desktop experiences.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TESTIMONIAL + CTA -->
+  <div class="max-w-5xl mx-auto px-6 py-14">
+    <div class="card p-10 bg-[#0F2744] text-white">
+      <div class="max-w-3xl">
+        <div class="text-white/70 text-sm tracking-wider">"SDSI built us a custom change order and T&amp;M billing system that paid for itself in the first six months. It works exactly the way our project managers and accounting team need it to — no compromises."</div>
+        <div class="mt-6 font-semibold">— James T., Controller<br><span class="text-sm opacity-75">Regional Mechanical Contractor, 180 employees</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="max-w-4xl mx-auto px-6 pb-16 text-center">
+    <h3 class="text-2xl font-semibold text-[#0F2744]">Have a unique requirement?</h3>
+    <p class="mt-2 text-[#374151]">We would be happy to discuss your project. Most custom engagements begin with a no-obligation discovery call.</p>
+    <div class="mt-7"><a href="contact.html" class="btn-primary px-9">Start the Conversation</a></div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-[#0F2744] text-[#94A3B8] pt-12 pb-8">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-12 gap-y-12">
+      <div class="md:col-span-5">
+        <div class="flex items-center gap-3"><img src="images/logo-sdsi-square.jpg" alt="SDSI" class="h-9 w-9 rounded-lg ring-1 ring-white/20"><span class="font-semibold text-white text-2xl tracking-tight">SDSI</span></div>
+        <p class="mt-4 max-w-xs text-sm">Since 1984 — Precision estimating software and custom Windows development.</p>
+      </div>
+      <div class="md:col-span-7 grid grid-cols-2 md:grid-cols-4 gap-y-9 text-sm">
+        <div><div class="font-semibold text-white mb-4 text-xs tracking-wider">PRODUCT</div><div class="space-y-[13px]"><a href="rapid-estimator.html" class="footer-link block">Rapid Estimator</a><a href="features.html" class="footer-link block">Features</a></div></div>
+        <div><div class="font-semibold text-white mb-4 text-xs tracking-wider">SOLUTIONS</div><div class="space-y-[13px]"><a href="custom-software.html" class="footer-link block">Custom Development</a><a href="support.html" class="footer-link block">Support</a></div></div>
+        <div><div class="font-semibold text-white mb-4 text-xs tracking-wider">COMPANY</div><div class="space-y-[13px]"><a href="about.html" class="footer-link block">About SDSI</a><a href="contact.html" class="footer-link block">Contact</a></div></div>
+        <div><div class="font-semibold text-white mb-4 text-xs tracking-wider">CONNECT</div><div class="space-y-[13px]"><a href="contact.html" class="footer-link block">Start a Project</a><div>(317) 555-0187</div></div></div>
+      </div>
+    </div>
+    <div class="mt-12 pt-6 border-t border-white/10 text-xs max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between text-[#64748B]">
+      <div>© 1984–2026 SDSI Business Systems. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

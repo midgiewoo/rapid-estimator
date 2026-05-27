@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SDSI Business Systems | Trusted Construction Estimating Software Since 1984</title>
+  <meta name="description" content="Since 1984, SDSI delivers premium estimating software and custom Windows applications for small-to-medium construction companies. Precision. Reliability. Results.">
+  <link rel="icon" href="images/logo-sdsi-square.jpg" type="image/jpeg">
+  
+  <!-- Tailwind Play CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-[#F8FAFC] text-[#111827] antialiased">
+  <!-- Top Navbar -->
+  <nav id="navbar" class="navbar fixed top-0 left-0 right-0 z-50 border-b border-[#E5E7EB]">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="flex items-center justify-between h-20">
+        <!-- Logo -->
+        <a href="index.html" class="flex items-center gap-3 group">
+          <img src="images/logo-sdsi-square.jpg" alt="SDSI Business Systems" class="h-10 w-10 rounded-lg object-cover ring-1 ring-[#E5E7EB]">
+          <div class="flex flex-col -space-y-0.5">
+            <span class="font-semibold text-xl tracking-[-0.025em] text-[#0F2744]">SDSI</span>
+            <span class="text-[10px] font-medium text-[#6B7280] tracking-[1.5px] uppercase">Business Systems</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <div class="hidden md:flex items-center gap-x-9 text-sm">
+          <a href="about.html" class="nav-link">About</a>
+          <a href="rapid-estimator.html" class="nav-link">Rapid Estimator</a>
+          <a href="features.html" class="nav-link">Features</a>
+          <a href="custom-software.html" class="nav-link">Custom Development</a>
+          <a href="support.html" class="nav-link">Support</a>
+        </div>
+
+        <div class="hidden md:flex items-center gap-x-3">
+          <a href="contact.html" class="btn-secondary text-sm px-5 py-2">Contact</a>
+          <a href="contact.html#demo" class="btn-primary text-sm" data-demo-cta>Request Demo</a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-toggle" 
+                class="md:hidden flex items-center justify-center w-11 h-11 rounded-xl border border-[#E5E7EB] hover:bg-white active:bg-[#F3F4F6]"
+                aria-label="Open menu" aria-expanded="false">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-overlay" class="hidden fixed inset-0 bg-black/60 z-[60] md:hidden"></div>
+  <div id="mobile-menu" class="mobile-menu fixed top-0 right-0 bottom-0 w-[82%] max-w-[320px] bg-white z-[70] md:hidden shadow-2xl flex flex-col">
+    <div class="flex items-center justify-between px-6 h-20 border-b">
+      <div class="flex items-center gap-3">
+        <img src="images/logo-sdsi-square.jpg" alt="SDSI" class="h-9 w-9 rounded-lg">
+        <span class="font-semibold text-xl text-[#0F2744]">SDSI</span>
+      </div>
+      <button id="mobile-menu-close" class="w-10 h-10 flex items-center justify-center text-[#6B7280] hover:text-[#111827]">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+    
+    <div class="px-6 py-8 flex flex-col gap-y-1 text-[15px]">
+      <a href="about.html" class="py-3 px-4 rounded-xl hover:bg-[#F8FAFC] font-medium">About Us</a>
+      <a href="rapid-estimator.html" class="py-3 px-4 rounded-xl hover:bg-[#F8FAFC] font-medium">Rapid Estimator</a>
+      <a href="features.html" class="py-3 px-4 rounded-xl hover:bg-[#F8FAFC] font-medium">Features</a>
+      <a href="custom-software.html" class="py-3 px-4 rounded-xl hover:bg-[#F8FAFC] font-medium">Custom Software</a>
+      <a href="support.html" class="py-3 px-4 rounded-xl hover:bg-[#F8FAFC] font-medium">Support Services</a>
+    </div>
+    
+    <div class="mt-auto border-t px-6 py-6 bg-[#F8FAFC]">
+      <a href="contact.html" class="block w-full text-center btn-secondary mb-3">Contact Sales</a>
+      <a href="contact.html#demo" class="block w-full text-center btn-primary">Request a Demo</a>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <header class="pt-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6 pt-16 pb-20">
+      <div class="grid lg:grid-cols-12 gap-x-12 gap-y-12 items-center">
+        <!-- Hero Content -->
+        <div class="lg:col-span-7">
+          <div class="inline-flex items-center gap-2 bg-[#0F2744] text-white text-xs font-semibold tracking-[1.5px] px-4 h-8 rounded-full mb-6">
+            EST. 1984 • 40+ YEARS OF EXCELLENCE
+          </div>
+          
+          <h1 class="text-[42px] sm:text-[52px] lg:text-[60px] leading-[1.02] tracking-[-0.04em] font-semibold text-[#0F2744] text-balance">
+            Precision estimating.<br>
+            Proven results.<br>
+            <span class="text-[#2563EB]">Trusted for decades.</span>
+          </h1>
+          
+          <p class="mt-6 max-w-[43ch] text-xl text-[#374151] leading-relaxed">
+            Since 1984, SDSI has delivered the industry’s most reliable construction estimating software and custom Windows solutions to contractors who demand accuracy and speed.
+          </p>
+
+          <div class="mt-9 flex flex-wrap gap-4">
+            <a href="rapid-estimator.html" class="btn-primary px-8 py-3.5 text-base">
+              Explore Rapid Estimator
+            </a>
+            <a href="contact.html#demo" class="btn-secondary px-8 py-3.5 text-base">
+              Schedule a Demo
+            </a>
+          </div>
+
+          <div class="mt-10 flex items-center gap-x-8 text-sm">
+            <div class="flex items-center -space-x-3">
+              <div class="w-7 h-7 rounded-full bg-[#2563EB] ring-2 ring-white"></div>
+              <div class="w-7 h-7 rounded-full bg-[#0F2744] ring-2 ring-white"></div>
+              <div class="w-7 h-7 rounded-full bg-[#374151] ring-2 ring-white"></div>
+            </div>
+            <p class="text-[#6B7280] font-medium">Trusted by <span class="text-[#0F2744]">1,200+</span> construction professionals</p>
+          </div>
+        </div>
+
+        <!-- Hero Visual -->
+        <div class="lg:col-span-5 relative">
+          <div class="image-container rounded-3xl overflow-hidden shadow-2xl ring-1 ring-[#E5E7EB]">
+            <img src="images/hero-home-main.jpg" alt="Professional construction estimator using SDSI Rapid Estimator software on a modern Windows desktop in a clean office environment" class="w-full h-auto object-cover">
+          </div>
+          <div class="absolute -bottom-4 -left-4 hidden lg:flex bg-white shadow-xl rounded-2xl px-5 py-3.5 items-center gap-3 border border-[#E5E7EB]">
+            <div class="text-xs uppercase tracking-widest text-[#6B7280]">AVERAGE TIME SAVED</div>
+            <div class="font-semibold text-[#0F2744] text-xl">57%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- TRUST BAR -->
+  <div class="border-b bg-white">
+    <div class="max-w-7xl mx-auto px-6 py-7">
+      <div class="flex flex-wrap justify-center md:justify-between items-center gap-x-10 gap-y-6 opacity-75">
+        <div class="text-sm font-semibold tracking-wider text-[#6B7280]">RELIED ON BY CONTRACTORS ACROSS NORTH AMERICA</div>
+        <div class="flex flex-wrap gap-x-9 text-[#374151] text-sm font-medium">
+          <div>General Contractors</div>
+          <div>Electrical</div>
+          <div>Plumbing &amp; HVAC</div>
+          <div>Commercial Builders</div>
+          <div>Civil &amp; Infrastructure</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- KEY STATS -->
+  <div class="section max-w-7xl mx-auto px-6">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div class="card p-8 text-center">
+        <div class="text-[#2563EB] text-5xl font-semibold tracking-tighter stat-number">40+</div>
+        <div class="mt-2 font-semibold text-lg text-[#0F2744]">Years of Excellence</div>
+        <p class="text-sm text-[#6B7280] mt-2">Delivering trusted software since 1984</p>
+      </div>
+      <div class="card p-8 text-center">
+        <div class="text-[#2563EB] text-5xl font-semibold tracking-tighter stat-number">1,200+</div>
+        <div class="mt-2 font-semibold text-lg text-[#0F2744]">Contractors Served</div>
+        <p class="text-sm text-[#6B7280] mt-2">Small and mid-sized firms nationwide</p>
+      </div>
+      <div class="card p-8 text-center">
+        <div class="text-[#2563EB] text-5xl font-semibold tracking-tighter stat-number">94%</div>
+        <div class="mt-2 font-semibold text-lg text-[#0F2744]">Reported Bid Accuracy</div>
+        <p class="text-sm text-[#6B7280] mt-2">Consistent, defensible estimates</p>
+      </div>
+      <div class="card p-8 text-center">
+        <div class="text-[#2563EB] text-5xl font-semibold tracking-tighter stat-number">3.2×</div>
+        <div class="mt-2 font-semibold text-lg text-[#0F2744]">Faster Bid Turnaround</div>
+        <p class="text-sm text-[#6B7280] mt-2">From takeoff to proposal</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- VISUAL TRUST BANNER -->
+  <div class="max-w-7xl mx-auto px-6 pb-2">
+    <div class="image-container rounded-3xl overflow-hidden shadow-lg ring-1 ring-[#E5E7EB]">
+      <img src="images/hero-construction-aerial.jpg" alt="Aerial view of a large commercial construction site at golden hour — symbolizing the scale and precision that SDSI software supports for builders across North America" class="w-full h-auto object-cover">
+    </div>
+    <div class="text-center text-xs text-[#6B7280] tracking-wider mt-3">POWERING ACCURATE BIDS ON PROJECTS OF EVERY SCALE</div>
+  </div>
+
+  <!-- FLAGSHIP PRODUCT TEASER -->
+  <div class="bg-white section">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
+        <div>
+          <div class="uppercase tracking-[2px] text-xs font-semibold text-[#2563EB]">OUR FLAGSHIP PRODUCT</div>
+          <h2 class="text-4xl font-semibold tracking-[-0.03em] text-[#0F2744]">Rapid Estimator</h2>
+        </div>
+        <a href="rapid-estimator.html" class="text-[#2563EB] hover:text-[#1E40AF] font-semibold inline-flex items-center gap-1 group">
+          Discover the full platform 
+          <span class="group-hover:translate-x-0.5 transition">→</span>
+        </a>
+      </div>
+
+      <div class="grid lg:grid-cols-2 gap-8">
+        <!-- Large mockup -->
+        <div>
+          <div class="mockup-frame">
+            <img src="images/mockup-main-estimating.jpg" alt="Rapid Estimator main estimating workspace showing detailed construction line items, unit costs, and accurate project totals in a professional Windows desktop interface" class="image-zoomable">
+          </div>
+          <p class="text-xs text-center text-[#6B7280] mt-3 tracking-wide">Main Bid Workspace — Real-time calculations, full audit trail</p>
+        </div>
+
+        <div class="space-y-6">
+          <div class="card p-7">
+            <div class="font-semibold text-xl text-[#0F2744]">Built specifically for construction professionals.</div>
+            <p class="mt-3 text-[#374151]">No bloated enterprise complexity. Just powerful, intuitive tools that estimators actually enjoy using — every single day.</p>
+            
+            <div class="mt-5 grid grid-cols-2 gap-3 text-sm">
+              <div class="flex gap-2"><span class="text-[#2563EB]">✓</span> <span>Lightning-fast takeoff</span></div>
+              <div class="flex gap-2"><span class="text-[#2563EB]">✓</span> <span>Accurate assemblies</span></div>
+              <div class="flex gap-2"><span class="text-[#2563EB]">✓</span> <span>Professional proposals</span></div>
+              <div class="flex gap-2"><span class="text-[#2563EB]">✓</span> <span>Excel &amp; PDF export</span></div>
+            </div>
+          </div>
+
+          <div>
+            <a href="rapid-estimator.html" class="btn-primary w-full md:w-auto justify-center px-9 py-3.5">See Rapid Estimator in Action</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- WHY SDSI -->
+  <div class="section max-w-7xl mx-auto px-6">
+    <div class="max-w-3xl mx-auto text-center mb-12">
+      <div class="uppercase text-xs tracking-[2.5px] text-[#2563EB] font-semibold">THE SDSI DIFFERENCE</div>
+      <h2 class="mt-3 text-4xl font-semibold tracking-[-0.025em] text-[#0F2744]">Four decades of focused innovation</h2>
+      <p class="mt-4 text-lg text-[#374151]">We don’t just sell software. We partner with contractors to deliver estimating tools that are accurate, fast, and genuinely easy to master.</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="card feature-card">
+        <div class="icon-wrap"><svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 01-9 9 9 9 0 01-9-9 9 9 0 019-9 9 9 0 019 9z" /></svg></div>
+        <h3 class="font-semibold text-xl">Unmatched Accuracy</h3>
+        <p class="mt-2 text-[#374151]">Built-in error checking, smart assemblies, and automatic calculations give you complete confidence in every line item.</p>
+      </div>
+      <div class="card feature-card">
+        <div class="icon-wrap"><svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg></div>
+        <h3 class="font-semibold text-xl">Blazing Speed</h3>
+        <p class="mt-2 text-[#374151]">Estimators report cutting bid time dramatically while producing richer, more detailed proposals than ever before.</p>
+      </div>
+      <div class="card feature-card">
+        <div class="icon-wrap"><svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 01-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 01-2 2 2 2 0 01-2-2 2 2 0 012-2 2 2 0 012 2z" /></svg></div>
+        <h3 class="font-semibold text-xl">Real Human Support</h3>
+        <p class="mt-2 text-[#374151]">When you call, you reach a knowledgeable expert — often someone who’s been with SDSI for 15+ years. No ticket queues.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- TESTIMONIALS -->
+  <div class="bg-white section">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="mb-10">
+        <div class="uppercase tracking-[2px] text-xs font-semibold text-[#2563EB]">REAL RESULTS FROM REAL CONTRACTORS</div>
+        <h2 class="text-4xl font-semibold tracking-tight text-[#0F2744] mt-2">What our clients say</h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="testimonial card p-8">
+          <p class="text-[#374151] text-[15px] leading-relaxed">“Rapid Estimator paid for itself within the first three bids. Our estimating accuracy improved dramatically and we’re winning more work with tighter margins.”</p>
+          <div class="mt-6 font-semibold">— Michael R., <span class="font-normal text-[#6B7280]">President, Horizon Builders</span></div>
+        </div>
+        <div class="testimonial card p-8">
+          <p class="text-[#374151] text-[15px] leading-relaxed">“We’ve used SDSI since 1997. The consistency and speed of the software is unmatched. When we need custom reports, their team builds exactly what we ask for.”</p>
+          <div class="mt-6 font-semibold">— Linda S., <span class="font-normal text-[#6B7280]">VP Estimating, Midwest Mechanical</span></div>
+        </div>
+        <div class="testimonial card p-8">
+          <p class="text-[#374151] text-[15px] leading-relaxed">“After switching from spreadsheets and another package, our estimators went from dreading bid days to finishing early. The support is simply the best in the industry.”</p>
+          <div class="mt-6 font-semibold">— David K., <span class="font-normal text-[#6B7280]">Owner, Precision Electric</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FINAL CTA -->
+  <div class="max-w-5xl mx-auto px-6 py-16 text-center">
+    <div class="bg-[#0F2744] text-white rounded-3xl px-8 md:px-14 py-14">
+      <h2 class="text-3xl md:text-4xl font-semibold tracking-tight">Ready to modernize your estimating process?</h2>
+      <p class="mt-4 max-w-md mx-auto text-lg text-[#94A3B8]">Join hundreds of contractors who trust SDSI every day to deliver accurate, profitable bids.</p>
+      
+      <div class="flex flex-col sm:flex-row gap-4 justify-center mt-9">
+        <a href="contact.html#demo" class="btn-primary bg-white text-[#0F2744] hover:bg-[#F8FAFC] px-9">Request a Personalized Demo</a>
+        <a href="rapid-estimator.html" class="btn-outline-light px-9">Learn About Rapid Estimator</a>
+      </div>
+      <p class="text-xs text-[#64748B] mt-6 tracking-wider">NO OBLIGATION • TYPICALLY SCHEDULED WITHIN 48 HOURS</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-[#0F2744] text-[#94A3B8] pt-14 pb-9">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-12 gap-y-12">
+      <div class="md:col-span-5">
+        <div class="flex items-center gap-3">
+          <img src="images/logo-sdsi-square.jpg" alt="SDSI" class="h-9 w-9 rounded-lg ring-1 ring-white/20">
+          <span class="font-semibold text-white text-2xl tracking-tight">SDSI</span>
+        </div>
+        <p class="mt-4 max-w-xs text-sm leading-relaxed">Delivering precision construction software and personalized support since 1984.</p>
+        <div class="mt-5 text-xs font-medium tracking-wider">INDIANAPOLIS, IN</div>
+      </div>
+
+      <div class="md:col-span-7 grid grid-cols-2 md:grid-cols-4 gap-y-10 text-sm">
+        <div>
+          <div class="font-semibold text-white mb-4 tracking-wide text-xs">PRODUCT</div>
+          <div class="space-y-[13px]">
+            <a href="rapid-estimator.html" class="footer-link block">Rapid Estimator</a>
+            <a href="features.html" class="footer-link block">Features</a>
+            <a href="rapid-estimator.html#mockups" class="footer-link block">Screenshots</a>
+          </div>
+        </div>
+        <div>
+          <div class="font-semibold text-white mb-4 tracking-wide text-xs">SOLUTIONS</div>
+          <div class="space-y-[13px]">
+            <a href="custom-software.html" class="footer-link block">Custom Development</a>
+            <a href="support.html" class="footer-link block">Remote Support</a>
+            <a href="support.html" class="footer-link block">Training</a>
+          </div>
+        </div>
+        <div>
+          <div class="font-semibold text-white mb-4 tracking-wide text-xs">COMPANY</div>
+          <div class="space-y-[13px]">
+            <a href="about.html" class="footer-link block">About SDSI</a>
+            <a href="about.html#values" class="footer-link block">Our Values</a>
+            <a href="contact.html" class="footer-link block">Contact</a>
+          </div>
+        </div>
+        <div>
+          <div class="font-semibold text-white mb-4 tracking-wide text-xs">CONNECT</div>
+          <div class="space-y-[13px]">
+            <a href="contact.html" class="footer-link block">Request Demo</a>
+            <a href="contact.html" class="footer-link block">Sales Inquiry</a>
+            <a href="support.html" class="footer-link block">Get Support</a>
+            <div class="pt-2 text-xs">(317) 555-0187</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="mt-16 pt-7 border-t border-white/10 text-xs max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between gap-y-1 text-[#64748B]">
+      <div>© 1984–2026 SDSI Business Systems. All rights reserved.</div>
+      <div class="flex gap-x-5">
+        <span>Privacy</span>
+        <span>Terms</span>
+        <span>Accessibility</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
