@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Features | SDSI Rapid Estimator — Construction Estimating Software</title>
-  <meta name="description" content="Explore the powerful, intuitive features of Rapid Estimator: digital takeoff, smart assemblies, proposal generation, reporting, and more.">
-  <link rel="icon" href="images/logo-sdsi-square.jpg" type="image/jpeg">
+  <title>Features | Rapid Estimator — Construction Estimating Software</title>
+  <meta name="description" content="Explore the features of Rapid Estimator: trade-specific cost books, smart assemblies, granular line-item estimating, proposal generation, reporting, and more.">
+  <link rel="icon" href="images/logo-rapid-estimator-icon.jpg" type="image/jpeg">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -14,16 +14,14 @@
   <nav id="navbar" class="navbar fixed top-0 left-0 right-0 z-50 border-b border-[#E5E7EB]">
     <div class="max-w-7xl mx-auto px-6">
       <div class="flex items-center justify-between h-20">
-        <a href="index.html" class="flex items-center gap-3">
-          <img src="images/logo-sdsi-square.jpg" alt="SDSI" class="h-10 w-10 rounded-lg object-cover ring-1 ring-[#E5E7EB]">
-          <div class="flex flex-col -space-y-0.5">
-            <span class="font-semibold text-xl tracking-[-0.025em] text-[#0F2744]">SDSI</span>
-            <span class="text-[10px] font-medium text-[#6B7280] tracking-[1.5px] uppercase">Business Systems</span>
-          </div>
+        <!-- SDSI Business Systems Banner -->
+        <a href="index.html" class="flex flex-col leading-none group">
+          <span class="font-semibold text-xl tracking-[-0.02em] text-[#0F2744]">SDSI</span>
+          <span class="text-[10px] font-medium tracking-[1.6px] text-[#6B7280] -mt-0.5">BUSINESS SYSTEMS</span>
         </a>
         <div class="hidden md:flex items-center gap-x-9 text-sm">
           <a href="about.html" class="nav-link">About</a>
-          <a href="rapid-estimator.html" class="nav-link">Rapid Estimator</a>
+          <a href="rapid-estimator.html" class="nav-link"><img src="images/logo-rapid-estimator-horizontal.jpg" alt="Rapid Estimator" class="h-5 w-auto object-contain"></a>
           <a href="features.html" class="nav-link active">Features</a>
           <a href="custom-software.html" class="nav-link">Custom Development</a>
           <a href="support.html" class="nav-link">Support</a>
@@ -42,15 +40,21 @@
   <!-- Mobile Menu -->
   <div id="mobile-overlay" class="hidden fixed inset-0 bg-black/60 z-[60] md:hidden"></div>
   <div id="mobile-menu" class="mobile-menu fixed top-0 right-0 bottom-0 w-[82%] max-w-[320px] bg-white z-[70] md:hidden shadow-2xl flex flex-col">
-    <div class="flex items-center justify-between px-6 h-20 border-b"><div class="flex items-center gap-3"><img src="images/logo-sdsi-square.jpg" alt="SDSI" class="h-9 w-9 rounded-lg"><span class="font-semibold text-xl text-[#0F2744]">SDSI</span></div><button id="mobile-menu-close" class="w-10 h-10 flex items-center justify-center text-[#6B7280]"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12" /></svg></button></div>
-    <div class="px-6 py-8 flex flex-col gap-y-1 text-[15px]">
-      <a href="about.html" class="py-3 px-4 rounded-xl hover:bg-[#F8FAFC]">About Us</a>
-      <a href="rapid-estimator.html" class="py-3 px-4 rounded-xl hover:bg-[#F8FAFC]">Rapid Estimator</a>
-      <a href="features.html" class="py-3 px-4 rounded-xl bg-[#F8FAFC] font-semibold">Features</a>
-      <a href="custom-software.html" class="py-3 px-4 rounded-xl hover:bg-[#F8FAFC]">Custom Software</a>
-      <a href="support.html" class="py-3 px-4 rounded-xl hover:bg-[#F8FAFC]">Support Services</a>
+    <div class="flex items-center justify-between px-6 h-20 border-b">
+      <a href="index.html" class="flex flex-col leading-none group">
+        <span class="font-semibold text-xl tracking-[-0.02em] text-[#0F2744]">SDSI</span>
+        <span class="text-[10px] font-medium tracking-[1.6px] text-[#6B7280] -mt-0.5">BUSINESS SYSTEMS</span>
+      </a>
+      <button id="mobile-menu-close" class="w-10 h-10 flex items-center justify-center text-[#6B7280]"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12" /></svg></button>
     </div>
-    <div class="mt-auto border-t px-6 py-6 bg-[#F8FAFC]"><a href="contact.html" class="block w-full text-center btn-secondary mb-3">Contact Sales</a><a href="contact.html#demo" class="block w-full text-center btn-primary">Request a Demo</a></div>
+        <div class="px-6 py-8 flex flex-col gap-y-1 text-[15px]">
+      <a href="about.html" class="py-3 px-4 rounded-xl hover:bg-[#F8FAFC]">About</a>
+      <a href="rapid-estimator.html" class="nav-link"><img src="images/logo-rapid-estimator-horizontal.jpg" alt="Rapid Estimator" class="h-5 w-auto object-contain"></a>
+      <a href="features.html" class="py-3 px-4 rounded-xl hover:bg-[#F8FAFC]">Features</a>
+      <a href="custom-software.html" class="py-3 px-4 rounded-xl hover:bg-[#F8FAFC]">Custom Development</a>
+      <a href="support.html" class="py-3 px-4 rounded-xl hover:bg-[#F8FAFC]">Support</a>
+    </div>
+    <div class="mt-auto border-t px-6 py-6 bg-[#F8FAFC]"><a href="contact.html" class="block w-full text-center btn-secondary mb-3">Contact</a><a href="contact.html#demo" class="block w-full text-center btn-primary">Request a Demo</a></div>
   </div>
 
   <!-- HERO -->
@@ -59,7 +63,7 @@
       <div class="max-w-3xl">
         <div class="uppercase text-xs tracking-[2.5px] font-semibold text-[#2563EB]">COMPLETE FEATURE SET</div>
         <h1 class="mt-3 text-[46px] leading-none font-semibold tracking-[-0.035em] text-[#0F2744]">Powerful features.<br>Effortless to use.</h1>
-        <p class="mt-5 text-xl text-[#374151]">Every capability in Rapid Estimator was designed with one goal: help you produce the most accurate, competitive bids possible in the least amount of time.</p>
+        <p class="mt-5 text-xl text-[#374151]">Our mission is to provide software to create the WINNING BID. Every capability in Rapid Estimator was designed with one goal: help you produce the most accurate, competitive bids possible in the least amount of time. Accurate, detailed, and professional looking estimates.</p>
       </div>
     </div>
   </div>
@@ -70,9 +74,9 @@
       <!-- Feature 1 -->
       <div class="card feature-card">
         <div class="icon-wrap"><svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 01-2 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 01-2 2v14" /></svg></div>
-        <h3 class="font-semibold text-2xl tracking-tight">Digital Takeoff</h3>
-        <p class="mt-3 text-[#374151]">Import PDF, TIFF, or CAD drawings. Measure lengths, areas, and counts with intelligent snapping. Quantities flow directly into your estimate with full traceability.</p>
-        <div class="mt-4 text-xs uppercase tracking-wider text-[#2563EB] font-semibold">PDF • CAD • IMAGE SUPPORT</div>
+        <h3 class="font-semibold text-2xl tracking-tight">Trade Cost Books &amp; Libraries</h3>
+        <p class="mt-3 text-[#374151]">Extensive pre-built cost books for remodelers and home builders with thousands of items organized by trade and phase. Regional pricing modifiers included.</p>
+        <div class="mt-4 text-xs uppercase tracking-wider text-[#2563EB] font-semibold">REMODELER • BUILDER • SPECIALTY</div>
       </div>
 
       <div class="card feature-card">
@@ -95,14 +99,14 @@
 
       <div class="card feature-card">
         <div class="icon-wrap"><svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg></div>
-        <h3 class="font-semibold text-2xl tracking-tight">Cost Databases</h3>
-        <p class="mt-3 text-[#374151]">Maintain your own master price lists or connect to commercial cost services. One-click price refreshing across all open estimates keeps numbers current.</p>
+        <h3 class="font-semibold text-2xl tracking-tight">Cost Databases &amp; Custom Data</h3>
+        <p class="mt-3 text-[#374151]">Maintain your own master price lists or create unlimited custom cost data that saves a great deal of time. One-click price refreshing across all open estimates keeps numbers current and accurate.</p>
       </div>
 
       <div class="card feature-card">
         <div class="icon-wrap"><svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 01-2 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 01-2 2v14" /></svg></div>
         <h3 class="font-semibold text-2xl tracking-tight">Advanced Reporting</h3>
-        <p class="mt-3 text-[#374151]">Win/loss analysis, category breakdowns, labor vs material ratios, historical comparison, and custom reports. Data you can actually use to improve future bids.</p>
+        <p class="mt-3 text-[#374151]">Quickly produce reports to match any level of detail. Win/loss analysis, category breakdowns, labor vs material ratios, historical comparison, and custom reports. Data you can actually use to improve future bids and maintain profit.</p>
       </div>
     </div>
   </div>
@@ -166,14 +170,17 @@
   <footer class="bg-[#0F2744] text-[#94A3B8] pt-12 pb-8">
     <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-12 gap-y-12">
       <div class="md:col-span-5">
-        <div class="flex items-center gap-3"><img src="images/logo-sdsi-square.jpg" alt="SDSI" class="h-9 w-9 rounded-lg ring-1 ring-white/20"><span class="font-semibold text-white text-2xl tracking-tight">SDSI</span></div>
+                <div class="flex flex-col leading-none">
+          <span class="font-semibold text-white text-2xl tracking-[-0.02em]">SDSI</span>
+          <span class="text-[10px] font-medium tracking-[1.6px] text-white/70 -mt-0.5">BUSINESS SYSTEMS</span>
+        </div>
         <p class="mt-4 max-w-xs text-sm">Since 1984 — Precision estimating software for contractors who value accuracy and speed.</p>
       </div>
       <div class="md:col-span-7 grid grid-cols-2 md:grid-cols-4 gap-y-9 text-sm">
-        <div><div class="font-semibold text-white mb-4 text-xs tracking-wider">PRODUCT</div><div class="space-y-[13px]"><a href="rapid-estimator.html" class="footer-link block">Rapid Estimator</a><a href="features.html" class="footer-link block">All Features</a></div></div>
+        <div><div class="font-semibold text-white mb-4 text-xs tracking-wider">PRODUCT</div><div class="space-y-[13px]"><a href="rapid-estimator.html" class="nav-link"><img src="images/logo-rapid-estimator-horizontal.jpg" alt="Rapid Estimator" class="h-5 w-auto object-contain"></a></div></div>
         <div><div class="font-semibold text-white mb-4 text-xs tracking-wider">SOLUTIONS</div><div class="space-y-[13px]"><a href="custom-software.html" class="footer-link block">Custom Development</a><a href="support.html" class="footer-link block">Support</a></div></div>
-        <div><div class="font-semibold text-white mb-4 text-xs tracking-wider">COMPANY</div><div class="space-y-[13px]"><a href="about.html" class="footer-link block">About SDSI</a><a href="contact.html" class="footer-link block">Contact</a></div></div>
-        <div><div class="font-semibold text-white mb-4 text-xs tracking-wider">GET STARTED</div><div class="space-y-[13px]"><a href="contact.html#demo" class="footer-link block">Request Demo</a><div>(317) 555-0187</div></div></div>
+        <div><div class="font-semibold text-white mb-4 text-xs tracking-wider">COMPANY</div><div class="space-y-[13px]"><a href="about.html" class="footer-link block">About the Makers</a><a href="contact.html" class="footer-link block">Contact</a></div></div>
+        <div><div class="font-semibold text-white mb-4 text-xs tracking-wider">GET STARTED</div><div class="space-y-[13px]"><a href="contact.html#demo" class="footer-link block">Request Demo</a><div>(800) 872-7160</div></div></div>
       </div>
     </div>
     <div class="mt-12 pt-6 border-t border-white/10 text-xs max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between text-[#64748B]">
@@ -184,3 +191,15 @@
   <script src="assets/js/main.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+

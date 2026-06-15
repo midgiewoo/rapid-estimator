@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Support &amp; Remote Assistance | SDSI Business Systems</title>
-  <meta name="description" content="Industry-leading personalized remote support for SDSI customers. Real experts. Fast response. No ticket queues.">
-  <link rel="icon" href="images/logo-sdsi-square.jpg" type="image/jpeg">
+  <title>Support for Rapid Estimator | Expert Help for Your Estimating Software</title>
+  <meta name="description" content="Personalized remote support for Rapid Estimator users. Real experts who know the software inside out. Fast response, no ticket queues. Quarterly updates included.">
+  <link rel="icon" href="images/logo-rapid-estimator-icon.jpg" type="image/jpeg">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -14,16 +14,14 @@
   <nav id="navbar" class="navbar fixed top-0 left-0 right-0 z-50 border-b border-[#E5E7EB]">
     <div class="max-w-7xl mx-auto px-6">
       <div class="flex items-center justify-between h-20">
-        <a href="index.html" class="flex items-center gap-3">
-          <img src="images/logo-sdsi-square.jpg" alt="SDSI" class="h-10 w-10 rounded-lg object-cover ring-1 ring-[#E5E7EB]">
-          <div class="flex flex-col -space-y-0.5">
-            <span class="font-semibold text-xl tracking-[-0.025em] text-[#0F2744]">SDSI</span>
-            <span class="text-[10px] font-medium text-[#6B7280] tracking-[1.5px] uppercase">Business Systems</span>
-          </div>
+                <!-- SDSI Business Systems Banner -->
+        <a href="index.html" class="flex flex-col leading-none group">
+          <span class="font-semibold text-xl tracking-[-0.02em] text-[#0F2744]">SDSI</span>
+          <span class="text-[10px] font-medium tracking-[1.6px] text-[#6B7280] -mt-0.5">BUSINESS SYSTEMS</span>
         </a>
         <div class="hidden md:flex items-center gap-x-9 text-sm">
           <a href="about.html" class="nav-link">About</a>
-          <a href="rapid-estimator.html" class="nav-link">Rapid Estimator</a>
+          <a href="rapid-estimator.html" class="nav-link"><img src="images/logo-rapid-estimator-horizontal.jpg" alt="Rapid Estimator" class="h-5 w-auto object-contain"></a>
           <a href="features.html" class="nav-link">Features</a>
           <a href="custom-software.html" class="nav-link">Custom Development</a>
           <a href="support.html" class="nav-link active">Support</a>
@@ -42,15 +40,18 @@
   <!-- Mobile Menu -->
   <div id="mobile-overlay" class="hidden fixed inset-0 bg-black/60 z-[60] md:hidden"></div>
   <div id="mobile-menu" class="mobile-menu fixed top-0 right-0 bottom-0 w-[82%] max-w-[320px] bg-white z-[70] md:hidden shadow-2xl flex flex-col">
-    <div class="flex items-center justify-between px-6 h-20 border-b"><div class="flex items-center gap-3"><img src="images/logo-sdsi-square.jpg" alt="SDSI" class="h-9 w-9 rounded-lg"><span class="font-semibold text-xl text-[#0F2744]">SDSI</span></div><button id="mobile-menu-close" class="w-10 h-10 flex items-center justify-center text-[#6B7280]"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12" /></svg></button></div>
-    <div class="px-6 py-8 flex flex-col gap-y-1 text-[15px]">
-      <a href="about.html" class="py-3 px-4 rounded-xl hover:bg-[#F8FAFC]">About Us</a>
-      <a href="rapid-estimator.html" class="py-3 px-4 rounded-xl hover:bg-[#F8FAFC]">Rapid Estimator</a>
+    <div class="flex items-center justify-between px-6 h-20 border-b">        <div class="flex flex-col leading-none">
+          <span class="font-semibold text-white text-2xl tracking-[-0.02em]">SDSI</span>
+          <span class="text-[10px] font-medium tracking-[1.6px] text-white/70 -mt-0.5">BUSINESS SYSTEMS</span>
+        </div><button id="mobile-menu-close" class="w-10 h-10 flex items-center justify-center text-[#6B7280]"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12" /></svg></button></div>
+        <div class="px-6 py-8 flex flex-col gap-y-1 text-[15px]">
+      <a href="about.html" class="py-3 px-4 rounded-xl hover:bg-[#F8FAFC]">About</a>
+      <a href="rapid-estimator.html" class="nav-link"><img src="images/logo-rapid-estimator-horizontal.jpg" alt="Rapid Estimator" class="h-5 w-auto object-contain"></a>
       <a href="features.html" class="py-3 px-4 rounded-xl hover:bg-[#F8FAFC]">Features</a>
-      <a href="custom-software.html" class="py-3 px-4 rounded-xl hover:bg-[#F8FAFC]">Custom Software</a>
-      <a href="support.html" class="py-3 px-4 rounded-xl bg-[#F8FAFC] font-semibold">Support Services</a>
+      <a href="custom-software.html" class="py-3 px-4 rounded-xl hover:bg-[#F8FAFC]">Custom Development</a>
+      <a href="support.html" class="py-3 px-4 rounded-xl hover:bg-[#F8FAFC]">Support</a>
     </div>
-    <div class="mt-auto border-t px-6 py-6 bg-[#F8FAFC]"><a href="contact.html" class="block w-full text-center btn-secondary mb-3">Contact Sales</a><a href="contact.html#demo" class="block w-full text-center btn-primary">Request a Demo</a></div>
+    <div class="mt-auto border-t px-6 py-6 bg-[#F8FAFC]"><a href="contact.html" class="block w-full text-center btn-secondary mb-3">Contact</a><a href="contact.html#demo" class="block w-full text-center btn-primary">Request a Demo</a></div>
   </div>
 
   <!-- HERO -->
@@ -60,7 +61,7 @@
         <div class="lg:col-span-7">
           <div class="uppercase tracking-widest text-xs font-semibold text-[#2563EB]">REAL SUPPORT. REAL PEOPLE.</div>
           <h1 class="mt-3 text-5xl font-semibold tracking-[-0.035em] text-[#0F2744]">When you need help, you get an expert — not a ticket.</h1>
-          <p class="mt-5 text-xl text-[#374151]">For 40 years, our customers have told us that SDSI support is the best in the industry. We answer the phone. We know your name. And we stay with you until the problem is solved.</p>
+          <p class="mt-5 text-xl text-[#374151]">Our software helps our customers create estimates that are accurate, comprehensive, and timely. When questions or issues occur, we are a phone call or email away, ready to provide help. We take pride in our customer support and are always ready to listen. We answer the phone. We know your name. And we stay with you until the problem is solved.</p>
           
           <div class="mt-8 flex flex-wrap gap-4">
             <a href="#how" class="btn-primary px-8">See How It Works</a>
@@ -69,7 +70,7 @@
         </div>
         <div class="lg:col-span-5">
           <div class="image-container rounded-3xl overflow-hidden shadow-2xl">
-            <img src="images/hero-support-remote.jpg" alt="SDSI remote support specialist assisting a construction client with Rapid Estimator via secure remote desktop session" class="w-full">
+            <img src="images/hero-support-remote.jpg" alt="Rapid Estimator support specialist assisting a contractor via secure remote desktop session" class="w-full">
           </div>
         </div>
       </div>
@@ -133,13 +134,13 @@
   <!-- HOW IT WORKS -->
   <div id="how" class="bg-white section">
     <div class="max-w-6xl mx-auto px-6">
-      <h2 class="text-4xl font-semibold tracking-tight text-center text-[#0F2744]">How SDSI support actually works</h2>
+      <h2 class="text-4xl font-semibold tracking-tight text-center text-[#0F2744]">How Rapid Estimator support actually works</h2>
       
       <div class="mt-10 grid md:grid-cols-3 gap-8">
         <div>
           <div class="text-[#2563EB] font-bold text-sm">STEP 01</div>
           <div class="mt-2 font-semibold text-xl">Call or submit a request</div>
-          <p class="mt-2 text-[#374151]">You reach a real person who knows the software and often knows your company. No phone trees, no “we’ll get back to you.”</p>
+          <p class="mt-2 text-[#374151]">You reach a real person who knows the software and often knows your company. No phone trees, no “we’ll get back to you.” We are a phone call or email away, ready to provide help. We take pride in our customer support and are always ready to listen.</p>
         </div>
         <div>
           <div class="text-[#2563EB] font-bold text-sm">STEP 02</div>
@@ -170,7 +171,7 @@
 
     <div class="mt-12 text-center">
       <a href="contact.html" class="btn-primary px-9 py-3.5 text-base">Contact Our Support Team</a>
-      <p class="text-xs text-[#6B7280] mt-4 tracking-wider">CURRENT CUSTOMERS: CALL (317) 555-0199 FOR IMMEDIATE ASSISTANCE</p>
+      <p class="text-xs text-[#6B7280] mt-4 tracking-wider">CURRENT CUSTOMERS: CALL (951) 461-8490 FOR IMMEDIATE ASSISTANCE</p>
     </div>
   </div>
 
@@ -178,14 +179,17 @@
   <footer class="bg-[#0F2744] text-[#94A3B8] pt-12 pb-8">
     <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-12 gap-y-12">
       <div class="md:col-span-5">
-        <div class="flex items-center gap-3"><img src="images/logo-sdsi-square.jpg" alt="SDSI" class="h-9 w-9 rounded-lg ring-1 ring-white/20"><span class="font-semibold text-white text-2xl tracking-tight">SDSI</span></div>
+                <div class="flex flex-col leading-none">
+          <span class="font-semibold text-white text-2xl tracking-[-0.02em]">SDSI</span>
+          <span class="text-[10px] font-medium tracking-[1.6px] text-white/70 -mt-0.5">BUSINESS SYSTEMS</span>
+        </div>
         <p class="mt-4 max-w-xs text-sm">Since 1984 — Premium software with premium, personal support.</p>
       </div>
       <div class="md:col-span-7 grid grid-cols-2 md:grid-cols-4 gap-y-9 text-sm">
-        <div><div class="font-semibold text-white mb-4 text-xs tracking-wider">PRODUCT</div><div class="space-y-[13px]"><a href="rapid-estimator.html" class="footer-link block">Rapid Estimator</a><a href="features.html" class="footer-link block">Features</a></div></div>
+        <div><div class="font-semibold text-white mb-4 text-xs tracking-wider">PRODUCT</div><div class="space-y-[13px]"><a href="rapid-estimator.html" class="nav-link"><img src="images/logo-rapid-estimator-horizontal.jpg" alt="Rapid Estimator" class="h-5 w-auto object-contain"></a></div></div>
         <div><div class="font-semibold text-white mb-4 text-xs tracking-wider">SOLUTIONS</div><div class="space-y-[13px]"><a href="custom-software.html" class="footer-link block">Custom Development</a><a href="support.html" class="footer-link block">Support Plans</a></div></div>
-        <div><div class="font-semibold text-white mb-4 text-xs tracking-wider">COMPANY</div><div class="space-y-[13px]"><a href="about.html" class="footer-link block">About SDSI</a><a href="contact.html" class="footer-link block">Contact</a></div></div>
-        <div><div class="font-semibold text-white mb-4 text-xs tracking-wider">SUPPORT</div><div class="space-y-[13px]"><a href="support.html" class="footer-link block">Support Options</a><div>(317) 555-0199</div></div></div>
+        <div><div class="font-semibold text-white mb-4 text-xs tracking-wider">COMPANY</div><div class="space-y-[13px]"><a href="about.html" class="footer-link block">About the Makers</a><a href="contact.html" class="footer-link block">Contact</a></div></div>
+        <div><div class="font-semibold text-white mb-4 text-xs tracking-wider">SUPPORT</div><div class="space-y-[13px]"><a href="support.html" class="footer-link block">Support Options</a><div>(951) 461-8490</div></div></div>
       </div>
     </div>
     <div class="mt-12 pt-6 border-t border-white/10 text-xs max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between text-[#64748B]">
@@ -196,3 +200,15 @@
   <script src="assets/js/main.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
