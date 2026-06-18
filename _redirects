@@ -1,0 +1,7 @@
+# Cloudflare Pages redirects
+# Replicates the previous Netlify behavior
+
+/rapid-estimator /rapid-estimator.html 200
+
+# Add more rules here as needed, e.g.:
+# /old-path /new-path 301
